@@ -1,0 +1,369 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    background-color: #F38E59;
+    width: 100%;
+    height: 400px;
+}
+nav{
+    width: 100%;  
+    height: 70px;
+    background-color: #F38E59; 
+    padding: 0px 16px;
+    position:fixed;
+}
+.tnav{
+    display:flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+
+}
+.navbar{
+    margin-top: 18px; 
+}
+.logo img{
+    width: 140px;
+    height: 49px;
+}
+.logo{
+    margin-top: 8px;
+}
+.navbar ul li{
+    display: flex;
+    float: left; 
+    margin-right: 16px;
+    padding:0px 10px ;
+}
+.navbar ul li a{
+    font-family: "proxima-nova", sans-serif;
+    font-size: 16.2px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 11px 12.8px;
+    display: block; /*click area*/
+    text-align: center;
+}
+.navbar ul li a:hover{
+    color:black;
+    background-color: #fff;
+}
+.deuxbtg{
+    padding-top: 23px;
+    display: flex;
+    
+}
+.m .button{
+    background-color:rgb(2, 32, 47);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 2px;
+    padding:15px 32px;
+    border-radius: 10px;
+    width: 175px;
+    height: 45px;
+}
+.m .button:hover{
+    color: #fff;
+    background-color: rgb(19, 38, 80);
+}
+.deuxbtg a.button {
+    font-size: 11.5px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 650;
+    position: relative;
+}
+.n .button{
+    background-color:none;
+    border: 2.5px solid white;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 2px;
+    padding: 15px 32px;
+    border-radius: 10px;
+    width: 110px;
+    height: 45px;
+}
+.n .button:hover{
+    color: #fff;
+    background-color:rgba(255, 235, 205, 0.582);
+}
+.txt{
+    text-align: center; 
+    padding-top: 200px; 
+
+}
+.txt h1{
+    font-size: 65px;
+    font-weight: 600;
+    font-family: "proxima-nova", sans-serif;
+    color: #fff;
+}
+.txt h2{
+    font-size:20px;  
+    font-weight: 500;  
+    font-family: "proxima-nova", sans-serif;
+    color: rgba(0, 0, 0, 0.514);
+}
+
+/*ici ce termine la partie header*/
+
+main{
+    background-color:#fff;
+    font-family: "proxima-nova", sans-serif;
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.formulaire {
+    padding:30px 0px;
+
+}
+.ecran{
+    padding: 20px 0px;
+}
+.ecran input{
+    width: 520px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #C0C6CC;
+    padding: 10px 13px;
+}
+.ecran textarea{
+    width: 520px;
+    height: 130px;
+    border-radius: 5px;
+    border: 1px solid #C0C6CC;
+    padding: 10px 13px;
+}
+.ecran ::placeholder{
+    color:#C0C6CC;
+    font-size: 14px;
+    font-style: italic;
+}
+
+button.button {
+    background-color:#F38E59;
+    color: white;
+    margin: 0px 0px;
+    padding:10px 10px;
+    border:1px  #F38E59;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+}
+.button{
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+.formulaire .button:hover{
+    color:white;
+    background-color:#885336ca;
+}
+
+
+ h2{
+    padding: 20px 0px;    
+    font-size: 30px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 550;
+    flex-wrap: wrap;
+    color: #5BB5DE;
+
+}
+h2>p{
+    font-size: 16px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    flex-wrap: wrap;
+    color: #333;
+    line-height: 28px;
+}
+
+h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.icon1 img{
+    padding-bottom:10px ;
+    margin: 10px; 
+}
+
+.icon2 img{
+    padding-bottom:10px;
+    margin: 10px; 
+}
+.icon3 img{
+    padding-bottom: 10px;
+    margin: 10px; 
+}
+
+.icon1 p{
+    font-size: 16px;
+    font-family: "proxima-nova", sans-serif;
+    padding-bottom: 10px;
+}
+.icon2 p{
+    font-size: 16px;
+    font-family: "proxima-nova", sans-serif;
+    padding-bottom: 10px;
+}
+.icon3 p{
+    font-size: 16px;
+    font-family: "proxima-nova", sans-serif;
+    padding-bottom: 10px;
+}
+
+.media .Facebook{
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content:space-between;
+}
+.media .Twitter{
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+.media .linkedln{
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+p a{
+    color: #F38E59;
+}
+
+main p{
+    line-height: 25px;
+    color: #4040408f;
+}
+
+
+/*////////////////// debut footer //////////////////*/
+
+footer{
+    background: #404040;
+    width: 100%;
+}
+.footer{
+    padding: 0px 5px;
+    margin: 0px 0px;
+}
+
+.listes{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.axe{
+    width: 1/6%;
+    padding: 0 15px;
+    
+}
+.axe h5{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 500;
+    position: relative;
+    font-family: "proxima-nova", sans-serif;
+}
+.axe ul li {
+    margin-bottom: 15px;
+}
+.axe p{
+    line-height: 30px; 
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "proxima-nova", sans-serif;
+    font-size: 16px;
+
+}
+.axe ul li a{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    font-family: "proxima-nova", sans-serif;
+    display: block;
+}
+.axe ul li a:hover{
+    color:#F38E59;
+}
+i{
+    color: #F38E59;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+.landing{
+
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "proxima-nova", sans-serif;
+
+}
+.landing .button:hover{
+    color: #fff;
+    background-color: rgb(19, 38, 80);
+}
+.landing .button{
+    background-color:rgb(2, 32, 47);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 21px 0px;
+    padding:15px 40px;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+}
+
+.copyreight{
+    background-color: #333;
+}
+.copyreight p{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px 0px;
+    margin: 0px 20px;
+    display:flex;
+    align-items: flex-end;
+    font-size: 16px;
+    font-family: "proxima-nova", sans-serif;
+
+}
+.copyreight a{
+    color: #F38E59;
+}
+/*////////////////// fin footer //////////////////*/
+
